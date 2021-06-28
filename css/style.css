@@ -1,0 +1,38 @@
+html,body{
+  width: 100%;
+
+}
+
+body{
+  /* background: no-repeat linear-gradient(120deg, #D9CD90, #8A6BBE); */
+  background: #FAD689;
+  background-image: url("../images/japanese-paper_00478.jpg");
+}
+
+#hero img{
+  opacity: 0.85;
+}
+
+#profile span{
+  white-space: pre-wrap;
+}
+
+#contact .wrapper {
+  position: relative;
+  width: 640px;
+  height: 800px;
+}
+
+#contact iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (max:768px){
+  #contact .wrapper {
+    width: 100%;
+  }
+}
